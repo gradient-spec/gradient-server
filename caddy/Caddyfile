@@ -1,0 +1,7 @@
+{
+	auto_https off
+}
+
+:8088 {
+	reverse_proxy 127.0.0.1:8000
+}
