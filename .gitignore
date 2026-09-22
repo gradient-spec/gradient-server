@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Runtime data
+**/backups/
+
+# Docker runtime
+
+# Supabase official source checkout
+supabase/supabase/
+
+# Supabase production runtime data
+supabase/production/.env
+
+# Generated/runtime files
+*.log
+*.pid
+*.sock
+*.tmp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Known runtime data
+caddy/data/
+postgres/data/
+redis/data/
+monitoring/prometheus/data/
+monitoring/grafana/data/
+monitoring/uptime-kuma/data/
